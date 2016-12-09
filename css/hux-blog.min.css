@@ -532,6 +532,9 @@ pre code {
 		font-size: 20px
 	}
 }
+.post-preview{
+	text-align: justify;
+}
 .post-preview>a {
 	color: #404040
 }
