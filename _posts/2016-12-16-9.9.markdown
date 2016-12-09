@@ -1,9 +1,9 @@
 ---
 layout:     post
 title:      "9.9接机产品文档"
-date:       2016*12*16
+date:       2016-12-16
 author:     "aZhuo"
-header*img: "img/PostBack.png"
+header-img: "img/PostBack.png"
 ---
 
 # 9元接送机项目产品需求文档
