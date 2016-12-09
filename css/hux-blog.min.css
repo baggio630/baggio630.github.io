@@ -537,7 +537,7 @@ pre code {
 }
 .post-preview>a:hover, .post-preview>a:focus {
 	text-decoration: none;
-	color: #0085a1
+	color: #333333
 }
 .post-preview>a>.post-title {
 	font-size: 21px;
