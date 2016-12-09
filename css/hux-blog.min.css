@@ -563,7 +563,7 @@ pre code {
 	color: #404040
 }
 .post-preview>.post-meta>a:hover, .post-preview>.post-meta>a:focus {
-	color: #0085a1;
+	color: #333333;
 	text-decoration: underline
 }
 @media only screen and (min-width:768px) {
