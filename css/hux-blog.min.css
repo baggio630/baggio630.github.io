@@ -428,7 +428,7 @@ pre code {
 }
 .intro-header {
 	background: no-repeat center center;
-	background-color: gray;
+	background-color: #ffffff;
 	background-attachment: scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
