@@ -581,10 +581,10 @@ pre code {
 }
 .post-content-preview {
 	font-size: 14px;
-	color: #888888
+	color: #333333
 }
 .post-content-preview:hover {
-	color: #0085a1
+	color: #333333
 }
 @media only screen and (min-width:768px) {
 	.post-content-preview {
