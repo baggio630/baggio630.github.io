@@ -8,6 +8,9 @@
 		padding-right: 5%
 	}
 }
+.post-container{
+	text-align: justify;
+}
 .sidebar-container {
 	color: #bfbfbf;
 	font-size: 14px
@@ -442,7 +445,7 @@ pre code {
 	}
 }
 .intro-header, .intro-header .post-heading, .intro-header .page-heading {
-	padding: 85px 0 55px;
+	padding: 0;
 	color: #333333
 }
 .site-heading {
