@@ -453,7 +453,7 @@ pre code {
 	}
 }
 .intro-header, .intro-header .post-heading, .intro-header .page-heading {
-	padding: 0;
+	padding: 50px 0 0px;
 	color: #333333
 }
 .site-heading {
