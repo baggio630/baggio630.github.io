@@ -6,563 +6,162 @@ author:     "aZhuo"
 header-img: "img/PostBack.png"
 ---
 
-<html>
-    <head>
-        <title></title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
-        <div class="note-wrapper">
-            <h1>9元接送机项目产品需求文档</h1>
-<p><span class='hashtag'>#需求文档/其他</span></p>
-<p>&nbsp;</p>
-<h3>产品目标：</h3>
-<p>节省该项目所涉及人员的沟通及操作成本，提高配合效率。</p>
-<h3>实现方式：</h3>
-<p>Web端 + App端</p>
-<h3>用户类型</h3>
-<ul><li>你来客服
-</li><li>当地计调
-</li><li>司导
-</li></ul>
-<h2>Web 端功能</h2>
-<h2> 功能概述</h2>
-<p>Web 端主要实现「你来客服」与「当地计调」两方角色的登陆，订单内容的录入、展示、筛选、指派，及各角色操作权限相关功能。</p>
-<h3>相关页面</h3>
-<ol><li><span class='ordered-list-number'>1.</span> 订单列表页
-</li></ol><ul><li>	订单内容录入、编辑、删除（你来客服权限）
-<ul><li>		接机
-<ul><li>			订单号（自动生成）
-</li><li>			订单对账号（从第三方平台获得后手填）
-</li><li>			订单日期（年／月／日／时／分）
-</li><li>			订单来源（携程／去哪儿）
-</li><li>			订单价格
-</li><li>			订单类型（接、送）
-</li><li>			航班号（抓取：落地时间、到达机场）
-</li><li>			游客姓名、人数（成人／儿童）、护照号、手机号、微信（可录入多个游客信息）
-</li><li>			酒店名、地址、电话
-</li><li>			购物状态（是／否／默认待跟进）
-</li><li>			免费赠送（送机／wifi／公交卡／代金券）
-</li></ul></li><li>		送机
-<ul><li>			订单号（自动生成）
-</li><li>			订单对账号（从第三方平台获得后手填）
-</li><li>			订单日期（年／月／日／时／分）
-</li><li>			订单来源（携程／去哪儿）
-</li><li>			订单价格
-</li><li>			订单类型（接、送）
-</li><li>			服务日期（年／月／日／时／分）
-</li><li>			送达机场
-</li><li>			出发地址
-</li><li>			游客姓名、人数（成人／儿童）、护照号、手机号、微信（可录入多个游客信息）
-</li></ul></li><li>	订单列表内容展示（你来客服、当地计调权限）
-<ul><li>		接机
-<ul><li>			订单号
-</li><li>			订单对账号
-</li><li>			订单来源
-</li><li>			订单价格
-</li><li>			订单类型
-</li><li>			购物状态（是／否／待跟进）
-</li><li>			服务日期（根据航班号，抓取落地时间）
-</li><li>			订单标签（已指派、已接机、已购物、已送机）
-</li></ul></li><li>		送机
-<ul><li>			订单号
-</li><li>			订单对账号
-</li><li>			订单来源
-</li><li>			订单价格
-</li><li>			订单类型
-</li><li>			服务日期
-</li><li>			订单标签（已指派、已送机）
-</li></ul></li><li>	订单列表展开内容展示（你来客服、当地计调权限）
-<ul><li>		接机
-<ul><li>			订单号
-</li><li>			订单对账号
-</li><li>			订单来源
-</li><li>			订单价格
-</li><li>			订单类型
-</li><li>			航班号
-</li><li>			服务日期（根据航班号，抓取落地时间）
-</li><li>			落地机场（根据航班号，抓取落地机场）
-</li><li>			酒店名、地址、电话
-</li><li>			购物状态（是／否／待跟进）
-</li><li>			游客姓名、人数（成人／儿童）、护照号、手机号、微信（可显示多个游客信息）
-</li><li>			订单标签（已指派、已接机、已购物、已送机）
-</li></ul></li><li>		送机
-<ul><li>			订单号
-</li><li>			订单对账号
-</li><li>			订单日期
-</li><li>			订单来源
-</li><li>			订单价格
-</li><li>			订单类型
-</li><li>			服务日期
-</li><li>			送达机场
-</li><li>			出发地址
-</li><li>			游客姓名、人数（成人／儿童）、护照号、手机号、微信（可显示多个游客信息）
-</li><li>			订单标签（已指派、已接机、已购物、已送机）
-</li></ul></li><li>	订单内容筛选（你来客服、当地计调权限）
-<ul><li>		订单状态
-</li><li>		订单号
-</li><li>		服务日期
-</li><li>		订单日期
-</li><li>		游客姓名、手机
-</li><li>		司导姓名、手机
-</li></ul></li><li>	订单指派（当地计调）
-<ul><li>		搜索
-<ul><li>			姓名
-</li><li>			手机
-</li><li>			微信
-</li></ul></li><li>		司导列表
-<ul><li>			姓名
-</li><li>			手机
-</li><li>			微信
-</li><li>			车型
-</li><li>			座位数
-</li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><ol><li><span class='ordered-list-number'>2.</span> 司导列表页
-</li></ol><ul><li>	司导信息录入、编辑、删除、展示
-<ul><li>		姓名
-</li><li>		手机
-</li><li>		微信
-</li><li>		车型
-</li><li>		座位数
-</li></ul></li><li>	司导信息搜索／筛选
-<ul><li>		姓名
-</li><li>		手机
-</li><li>		座位数
-</li></ul></li></ul>
-<h2>App 端功能</h2>
-<h2> 功能概述</h2>
-<p>App 端功能主要实现「司导」的登陆及订单相关功能。</p>
-<h3>相关功能页面</h3>
-<ol><li><span class='ordered-list-number'>1.</span> 列表页：
-</li></ol><ul><li>	接机
-<ul><li>		订单号
-</li><li>		服务类型（接／送）
-</li><li>		人数（成人／儿童）
-</li><li>		航班号
-</li><li>		服务日期（年／月／日／时／分）
-</li></ul></li><li>	送机
-<ul><li>		订单号
-</li><li>		订单日期
-</li><li>		订单类型
-</li><li>		服务日期
-</li><li>		送达机场
-</li><li>		出发地址
-</li><li>		人数（成人／儿童）
-</li></ul></li></ul><ol><li><span class='ordered-list-number'>2.</span> 订单详情页：
-</li></ol><ul><li>	接机
-<ul><li>		订单号
-</li><li>		订单类型
-</li><li>		航班号
-</li><li>		服务日期
-</li><li>		落地机场
-</li><li>		酒店名、地址、电话
-</li><li>		游客姓名、人数（成人／儿童）、护照号、手机号、微信（可显示多个游客信息）
-</li></ul></li><li>	送机
-<ul><li>		订单号
-</li><li>		订单日期
-</li><li>		订单类型
-</li><li>		服务日期
-</li><li>		送达机场
-</li><li>		出发地址
-</li><li>		游客姓名、人数（成人／儿童）、护照号、手机号、微信（可显示多个游客信息）
-</li></ul></li><li>	详情页操作
-<ul><li>		已接机(接)
-</li><li>		已购物(接)
-</li><li>		已送机(接、送)
-</li></ul></li></ul><ol><li><span class='ordered-list-number'>3.</span> 登陆
-</li></ol>已在后台录入的当地人，可以通过录入的手机号及验证码登录，无注册功能。
+# 9元接送机项目产品需求文档
+#需求文档/其他
 
+### 产品目标：
+节省该项目所涉及人员的沟通及操作成本，提高配合效率。
+### 实现方式：
+Web端 + App端
+### 用户类型
+* 你来客服
+* 当地计调
+* 司导
 
+## Web 端功能
+### 功能概述
+Web 端主要实现「你来客服」与「当地计调」两方角色的登陆，订单内容的录入、展示、筛选、指派，及各角色操作权限相关功能。
+### 相关页面
+1. 订单列表页
+	* 订单内容录入、编辑、删除（你来客服权限）
+		* 接机
+			* 订单号（自动生成）
+			* 订单对账号（从第三方平台获得后手填）
+			* 订单日期（年／月／日／时／分）
+			* 订单来源（携程／去哪儿）
+			* 订单价格
+			* 订单类型（接、送）
+			* 航班号（抓取：落地时间、到达机场）
+			* 游客姓名、人数（成人／儿童）、护照号、手机号、微信（可录入多个游客信息）
+			* 酒店名、地址、电话
+			* 购物状态（是／否／默认待跟进）
+			* 免费赠送（送机／wifi／公交卡／代金券）
+		* 送机
+			* 订单号（自动生成）
+			* 订单对账号（从第三方平台获得后手填）
+			* 订单日期（年／月／日／时／分）
+			* 订单来源（携程／去哪儿）
+			* 订单价格
+			* 订单类型（接、送）
+			* 服务日期（年／月／日／时／分）
+			* 送达机场
+			* 出发地址
+			* 游客姓名、人数（成人／儿童）、护照号、手机号、微信（可录入多个游客信息）
+	* 订单列表内容展示（你来客服、当地计调权限）
+		* 接机
+			* 订单号
+			* 订单对账号
+			* 订单来源
+			* 订单价格
+			* 订单类型
+			* 购物状态（是／否／待跟进）
+			* 服务日期（根据航班号，抓取落地时间）
+			* 订单标签（已指派、已接机、已购物、已送机）
+		* 送机
+			* 订单号
+			* 订单对账号
+			* 订单来源
+			* 订单价格
+			* 订单类型
+			* 服务日期
+			* 订单标签（已指派、已送机）
+	* 订单列表展开内容展示（你来客服、当地计调权限）
+		* 接机
+			* 订单号
+			* 订单对账号
+			* 订单来源
+			* 订单价格
+			* 订单类型
+			* 航班号
+			* 服务日期（根据航班号，抓取落地时间）
+			* 落地机场（根据航班号，抓取落地机场）
+			* 酒店名、地址、电话
+			* 购物状态（是／否／待跟进）
+			* 游客姓名、人数（成人／儿童）、护照号、手机号、微信（可显示多个游客信息）
+			* 订单标签（已指派、已接机、已购物、已送机）
+		* 送机
+			* 订单号
+			* 订单对账号
+			* 订单日期
+			* 订单来源
+			* 订单价格
+			* 订单类型
+			* 服务日期
+			* 送达机场
+			* 出发地址
+			* 游客姓名、人数（成人／儿童）、护照号、手机号、微信（可显示多个游客信息）
+			* 订单标签（已指派、已接机、已购物、已送机）
+	* 订单内容筛选（你来客服、当地计调权限）
+		* 订单状态
+		* 订单号
+		* 服务日期
+		* 订单日期
+		* 游客姓名、手机
+		* 司导姓名、手机
+	* 订单指派（当地计调）
+		* 搜索
+			* 姓名
+			* 手机
+			* 微信
+		* 司导列表
+			* 姓名
+			* 手机
+			* 微信
+			* 车型
+			* 座位数
+2. 司导列表页
+	* 司导信息录入、编辑、删除、展示
+		* 姓名
+		* 手机
+		* 微信
+		* 车型
+		* 座位数
+	* 司导信息搜索／筛选
+		* 姓名
+		* 手机
+		* 座位数
 
-        </div>
-
-        <style>
-            @charset "UTF-8";
-/* line 5, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
-}
-
-/* line 22, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-html {
-  line-height: 1;
-}
-
-/* line 24, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-ol, ul {
-  list-style: none;
-}
-
-/* line 26, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* line 28, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-caption, th, td {
-  text-align: left;
-  font-weight: normal;
-  vertical-align: middle;
-}
-
-/* line 30, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-q, blockquote {
-  quotes: none;
-}
-/* line 103, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-q:before, q:after, blockquote:before, blockquote:after {
-  content: "";
-  content: none;
-}
-
-/* line 32, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-a img {
-  border: none;
-}
-
-/* line 116, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
-  display: block;
-}
-
-/* line 8, ../Sass/sass/utilities/_common-import.scss */
-* {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-/* line 106, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
-html {
-  font-size: 87.5%;
-  line-height: 1.57143em;
-}
-
-/* line 8, ../Sass/sass/partials/_typography.scss */
-html {
-  font-size: 14px;
-  line-height: 1.6em;
-  -webkit-text-size-adjust: 100%;
-}
-
-/* line 14, ../Sass/sass/partials/_typography.scss */
-body {
-  background: #fcfcfc;
-  color: #545454;
-  text-rendering: optimizeLegibility;
-  font-family: "Avenir-Book";
-}
-
-/* line 21, ../Sass/sass/partials/_typography.scss */
-a {
-  color: #de4c4f;
-  text-decoration: none;
-}
-
-/* line 26, ../Sass/sass/partials/_typography.scss */
-h1 {
-  font-family: "Avenir-Medium";
-  color: #333333;
-  font-size: 1.6em;
-  line-height: 1.3em;
-  margin-bottom: 0.78571em;
-}
-
-/* line 34, ../Sass/sass/partials/_typography.scss */
-h2 {
-  font-family: "Avenir-Medium";
-  color: #333333;
-  font-size: 1.3em;
-  line-height: 1em;
-  margin-bottom: 0.62857em;
-}
-
-/* line 44, ../Sass/sass/partials/_typography.scss */
-h3 {
-  font-family: "Avenir-Medium";
-  color: #333333;
-  font-size: 1.15em;
-  line-height: 1em;
-  margin-bottom: 0.47143em;
-}
-
-/* line 53, ../Sass/sass/partials/_typography.scss */
-p {
-  margin-bottom: 1.57143em;
-  hyphens: auto;
-}
-
-/* line 58, ../Sass/sass/partials/_typography.scss */
-hr {
-  height: 1px;
-  border: 0;
-  background-color: #dedede;
-  margin: -1px auto 1.57143em auto;
-}
-
-/* line 66, ../Sass/sass/partials/_typography.scss */
-ul, ol {
-  margin-bottom: 1.57143em;
-}
-/* line 68, ../Sass/sass/partials/_typography.scss */
-ul ul, ul ol, ol ul, ol ol {
-  margin-bottom: 0px;
-}
-
-/* line 73, ../Sass/sass/partials/_typography.scss */
-b, strong {
-  font-family: "Avenir-Heavy";
-}
-
-/* line 77, ../Sass/sass/partials/_typography.scss */
-i, em {
-  font-family: "Avenir-BookOblique";
-}
-
-/* line 81, ../Sass/sass/partials/_typography.scss */
-code {
-  font-family: "Menlo-Regular";
-}
-
-/* line 87, ../Sass/sass/partials/_typography.scss */
-.text-overflow-ellipsis {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-/* line 8, ../Sass/sass/HTMLExport.scss */
-.note-wrapper {
-  max-width: 46em;
-  margin: 0px auto;
-  padding: 1.57143em 3.14286em;
-}
-/* line 13, ../Sass/sass/HTMLExport.scss */
-.note-wrapper.spotlight-preview {
-  overflow-x: hidden;
-}
-
-/* line 18, ../Sass/sass/HTMLExport.scss */
-u {
-  text-decoration: none;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, #e06e73 50%);
-  background-repeat: repeat-x;
-  background-size: 2px 2px;
-  background-position: 0 1.05em;
-}
-
-/* line 23, ../Sass/sass/HTMLExport.scss */
-s {
-  color: #878787;
-}
-
-/* line 27, ../Sass/sass/HTMLExport.scss */
-p {
-  margin-bottom: 0.1em;
-}
-
-/* line 31, ../Sass/sass/HTMLExport.scss */
-hr {
-  margin-bottom: 0.7em;
-  margin-top: 0.7em;
-}
-
-/* line 37, ../Sass/sass/HTMLExport.scss */
-ul li {
-  text-indent: -0.6em;
-}
-/* line 39, ../Sass/sass/HTMLExport.scss */
-ul li:before {
-  content: "•";
-  color: #e06e73;
-  display: inline-block;
-  margin-right: 0.3em;
-}
-/* line 46, ../Sass/sass/HTMLExport.scss */
-ul ul {
-  margin-left: 1.25714em;
-}
-
-/* line 52, ../Sass/sass/HTMLExport.scss */
-ol li {
-  text-indent: -1.25em;
-}
-/* line 55, ../Sass/sass/HTMLExport.scss */
-ol ol {
-  margin-left: 1.25714em;
-}
-
-/* line 60, ../Sass/sass/HTMLExport.scss */
-quote {
-  display: block;
-  margin-left: -1em;
-  padding-left: 0.8em;
-  border-left: 0.2em solid #e06e73;
-}
-
-/* line 69, ../Sass/sass/HTMLExport.scss */
-.todo-list ul {
-  margin-left: 1.88571em;
-}
-/* line 73, ../Sass/sass/HTMLExport.scss */
-.todo-list li {
-  text-indent: -1.75em;
-}
-/* line 76, ../Sass/sass/HTMLExport.scss */
-.todo-list li:before {
-  content: "";
-  display: static;
-  margin-right: 0px;
-}
-
-/* line 84, ../Sass/sass/HTMLExport.scss */
-.todo-checkbox {
-  text-indent: -1.7em;
-}
-/* line 87, ../Sass/sass/HTMLExport.scss */
-.todo-checkbox svg {
-  margin-right: 0.3em;
-  position: relative;
-  top: 0.2em;
-}
-/* line 92, ../Sass/sass/HTMLExport.scss */
-.todo-checkbox svg #check {
-  display: none;
-}
-/* line 97, ../Sass/sass/HTMLExport.scss */
-.todo-checkbox.todo-checked #check {
-  display: inline;
-}
-/* line 100, ../Sass/sass/HTMLExport.scss */
-.todo-checkbox.todo-checked .todo-text {
-  text-decoration: line-through;
-  color: #878787;
-}
-
-/* line 107, ../Sass/sass/HTMLExport.scss */
-.code-inline {
-  display: inline-block;
-  background: white;
-  border: solid 1px #dedede;
-  padding: 0.0em 0.5em;
-  font-size: 0.9em;
-}
-
-/* line 115, ../Sass/sass/HTMLExport.scss */
-.code-multiline {
-  display: block;
-  background: white;
-  border: solid 1px #dedede;
-  padding: 0.7em 1em;
-  font-size: 0.9em;
-  overflow-x: auto;
-}
-
-/* line 124, ../Sass/sass/HTMLExport.scss */
-.hashtag {
-  display: inline-block;
-  color: white;
-  background: #b8bfc2;
-  padding: 0.0em 0.5em;
-  border-radius: 1em;
-}
-/* line 130, ../Sass/sass/HTMLExport.scss */
-.hashtag a {
-  color: white;
-}
-
-/* line 137, ../Sass/sass/HTMLExport.scss */
-.address a {
-  color: #545454;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, #0da35e 50%);
-  background-repeat: repeat-x;
-  background-size: 2px 2px;
-  background-position: 0 1.05em;
-}
-/* line 142, ../Sass/sass/HTMLExport.scss */
-.address svg {
-  position: relative;
-  top: 0.2em;
-  display: inline-block;
-  margin-right: 0.2em;
-}
-
-/* line 150, ../Sass/sass/HTMLExport.scss */
-.color-preview {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  border: solid 1px rgba(0, 0, 0, 0.3);
-  border-radius: 50%;
-  margin-right: 0.1em;
-  position: relative;
-  top: 0.2em;
-  white-space: nowrap;
-}
-
-/* line 162, ../Sass/sass/HTMLExport.scss */
-.color-code {
-  margin-right: 0.2em;
-  font-family: "Menlo-Regular";
-  font-size: 0.9em;
-}
-
-/* line 168, ../Sass/sass/HTMLExport.scss */
-.color-hash {
-  opacity: 0.4;
-}
-
-/* line 176, ../Sass/sass/HTMLExport.scss */
-.ordered-list-number {
-  color: #e06e73;
-  text-align: right;
-  display: inline-block;
-  min-width: 1em;
-}
-
-/* line 185, ../Sass/sass/HTMLExport.scss */
-.arrow svg {
-  position: relative;
-  top: 0.08em;
-  display: inline-block;
-  margin-right: 0.15em;
-  margin-left: 0.15em;
-}
-/* line 192, ../Sass/sass/HTMLExport.scss */
-.arrow svg #rod {
-  stroke: #545454;
-}
-/* line 193, ../Sass/sass/HTMLExport.scss */
-.arrow svg #point {
-  fill: #545454;
-}
-
-/* line 197, ../Sass/sass/HTMLExport.scss */
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-        </style>
-    </body>
-</html>
+## App 端功能
+### 功能概述
+App 端功能主要实现「司导」的登陆及订单相关功能。
+### 相关功能页面
+1. 列表页：
+	* 接机
+		* 订单号
+		* 服务类型（接／送）
+		* 人数（成人／儿童）
+		* 航班号
+		* 服务日期（年／月／日／时／分）
+	* 送机
+		* 订单号
+		* 订单日期
+		* 订单类型
+		* 服务日期
+		* 送达机场
+		* 出发地址
+		* 人数（成人／儿童）
+2. 订单详情页：
+	* 接机
+		* 订单号
+		* 订单类型
+		* 航班号
+		* 服务日期
+		* 落地机场
+		* 酒店名、地址、电话
+		* 游客姓名、人数（成人／儿童）、护照号、手机号、微信（可显示多个游客信息）
+	* 送机
+		* 订单号
+		* 订单日期
+		* 订单类型
+		* 服务日期
+		* 送达机场
+		* 出发地址
+		* 游客姓名、人数（成人／儿童）、护照号、手机号、微信（可显示多个游客信息）
+	* 详情页操作
+		* 已接机(接)
+		* 已购物(接)
+		* 已送机(接、送)
+3. 登陆
+已在后台录入的当地人，可以通过录入的手机号及验证码登录，无注册功能。
 
 
