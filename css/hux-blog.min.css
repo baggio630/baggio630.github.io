@@ -441,7 +441,7 @@ pre code {
 		margin-bottom: 20px
 	}
 }
-.intro-header .site-heading, .intro-header .post-heading, .intro-header .page-heading {
+.intro-header, .intro-header .post-heading, .intro-header .page-heading {
 	padding: 85px 0 55px;
 	color: #333333
 }
