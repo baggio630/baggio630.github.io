@@ -1,8 +1,6 @@
 ---
 layout:     post
 title:      "iOS 9，为前端世界都带来了些什么？「译」"
-date:       2015-12-15
-author:     "Zhuo"
 header-img: "img/PostBack.png"
 ---
 
