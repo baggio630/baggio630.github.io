@@ -540,8 +540,8 @@ pre code {
 	color: #333333
 }
 .post-preview>a>.post-title {
-	font-size: 21px;
-	line-height: 1.3;
+	font-size: 28px;
+	line-height: 1.12;
 	margin-top: 30px;
 	margin-bottom: 8px
 }
@@ -580,7 +580,7 @@ pre code {
 	}
 }
 .post-content-preview {
-	font-size: 14px;
+	font-size: 18px;
 	color: #333333
 }
 .post-content-preview:hover {
