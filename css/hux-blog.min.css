@@ -445,6 +445,10 @@ pre code {
 	padding: 85px 0 55px;
 	color: #333333
 }
+.site-heading {
+	padding: 85px 0 55px;
+	color: #fff
+}
 @media only screen and (min-width:768px) {
 	.intro-header .site-heading, .intro-header .post-heading, .intro-header .page-heading {
 		padding: 150px 0 10px 0
