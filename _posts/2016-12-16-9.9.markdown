@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      "9.9接机产品文档"
-subtitle:   "Web 端主要实现「你来客服」与「当地计调」两方角色的登陆，订单内容的录入、展示、筛选、指派，及各角色操作权限相关功能。"
 date:       2016-12-16
 author:     "Zhuo"
 header-img: "img/PostBack.png"
