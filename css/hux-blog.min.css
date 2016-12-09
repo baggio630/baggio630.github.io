@@ -591,8 +591,8 @@ pre code {
 }
 @media only screen and (min-width:768px) {
 	.post-content-preview {
-		font-size: 18px;
-		line-height: 1.58
+		font-size: 16px;
+		line-height: 1.7
 	}
 }
 .section-heading {
