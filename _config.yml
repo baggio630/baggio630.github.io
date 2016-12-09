@@ -1,5 +1,5 @@
 # Site settings
-title: Zhuo Blog
+title: 卓的博客
 SEOTitle: 卓的博客
 header-img: img/home-bg.jpg
 email: jinzhuo@outlook.com
@@ -64,12 +64,12 @@ duoshuo_share: true                     # set to false if you want to use Commen
 
 # Google Analytics
 ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_domain: jinzhuo.me
 
 
 
 # Sidebar settings
-sidebar: not                           # whether or not using Sidebar.
+sidebar: no                           # whether or not using Sidebar.
 sidebar-about-description: "写写代码，做做设计，<br>离开世界之前，一切都是过程"
 sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
