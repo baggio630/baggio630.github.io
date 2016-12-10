@@ -463,7 +463,7 @@ pre code {
 }
 @media only screen and (min-width:768px) {
 	.intro-header .site-heading, .intro-header .post-heading, .intro-header .page-heading {
-		padding: 150px 0 10px 0
+		padding: 100px 0 10px 0
 	}
 }
 .intro-header .site-heading {
@@ -530,7 +530,7 @@ pre code {
 		font-size: 30px
 	}
 	.intro-header .post-heading .meta {
-		font-size: 20px
+		font-size: 16px
 	}
 }
 .post-preview{
