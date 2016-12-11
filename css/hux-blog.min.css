@@ -214,7 +214,7 @@ pre code {
 	color: #337ab7
 }
 .post-container a:hover, .post-container a:focus {
-	color: #0085a1
+	color: #ffffff
 }
 .post-container h1, .post-container h2, .post-container h3, .post-container h4, .post-container h5, .post-container h6 {
 	margin: 30px 0 10px
@@ -347,7 +347,7 @@ pre code {
 	border-bottom: 1px solid #f2f2f2	
 }
 .navbar-custom .navbar-brand {
-	font-weight: 800;
+	font-weight: 400;
 	color: #333;
 	height: 56px;
 	line-height: 25px
