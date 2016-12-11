@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "优秀的设计师和产品经理都在使用的截图管理工具"
+title:      "关于我"
 date:       2016-12-16
 author:     "Zhuo"
 header-img: "img/PostBack.png"
