@@ -354,7 +354,7 @@ pre code {
 }
 .navbar-brand-img {
 	float: left;
-	width: 300px;
+	width: 200px;
 	height: 60px;
 	background-image: url(/img/v3-logo-hd@1x.png);
 	background-image: -webkit-image-set(url(/img/v3-logo-hd@1x.png) 1x, url(/img/v3-logo-hd@2x.png) 2x);
