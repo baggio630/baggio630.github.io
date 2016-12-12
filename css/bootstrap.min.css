@@ -3484,7 +3484,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 }
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
 	margin-right: -15px;
-	margin-left: -15px
+	margin-left: 0px
 }
 @media (min-width:768px) {
 	.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
