@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "发布服务产品调整"
-date:       2016-12-15
+title:      "服务详情页字段调整"
+date:       2016-12-16
 author:     "Zhuo"
 header-img: "img/PostBack.png"
 catalog: true
