@@ -478,7 +478,7 @@ pre code {
 }
 @media only screen and (min-width:768px) {
 	.intro-header .site-heading, .intro-header .post-heading, .intro-header .page-heading {
-		padding: 100px 0 10px 0
+		padding: 70px 0 10px 0
 	}
 }
 .intro-header .site-heading {
@@ -511,7 +511,7 @@ pre code {
 	}
 }
 .intro-header .post-heading h1 {
-	font-size: 30px;
+	font-size: 28px;
 	margin-bottom: 24px;
 	line-height: 1.3
 }
@@ -774,21 +774,20 @@ img::-moz-selection {
 	margin-bottom: -5px
 }
 .tags a, .tags .tag {
-	display: inline-block;
-	border: 1px solid rgba(255, 255, 255, .8);
-	border-radius: 999em;
-	padding: 0 10px;
-	color: #fff;
-	line-height: 24px;
+	text-align: center;
+	height: 24px;
+	padding: 5px 15px;
 	font-size: 12px;
-	text-decoration: none;
-	margin: 0 1px;
-	margin-bottom: 6px
+	line-height: 24px;
+	color: gray;
+	border-radius: 15px;
+	background: rgba(0, 0, 0, .06);
+	max-width: 100%;
+	box-sizing: border-box
 }
 .tags a:hover, .tags .tag:hover, .tags a:active, .tags .tag:active {
-	color: #fff;
-	border-color: #fff;
-	background-color: rgba(255, 255, 255, .4);
+	color: gray;
+	background: rgba(0, 0, 0, .06);
 	text-decoration: none
 }
 @media only screen and (min-width:768px) {
@@ -808,15 +807,19 @@ img::-moz-selection {
 	margin: 20px 0 15px 0
 }
 #tag_cloud a, #tag_cloud .tag {
-	font-size: 14px;
-	border: none;
-	line-height: 28px;
-	margin: 0 2px;
-	margin-bottom: 8px;
-	background: #D6D6D6
+	text-align: center;
+	height: 24px;
+	padding: 5px 15px;
+	font-size: 12px;
+	line-height: 24px;
+	color: gray;
+	border-radius: 15px;
+	background: rgba(0, 0, 0, .06);
+	max-width: 100%;
+	box-sizing: border-box
 }
 #tag_cloud a:hover, #tag_cloud .tag:hover, #tag_cloud a:active, #tag_cloud .tag:active {
-	background-color: #0085a1 !important
+	background-color: rgba(0, 0, 0, .02) !important
 }
 @media only screen and (min-width:768px) {
 	#tag_cloud {
@@ -848,10 +851,21 @@ img::-moz-selection {
 	}
 }
 .one-tag-list .tag-text {
-	font-weight: 200;
 	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
 	line-height: 1.7
 }
+.one-tag-list .fa-tag2 {
+	text-align: center;
+	height: 20px;
+	padding: 5px 15px;
+	font-size: 15px;
+	line-height: 24px;
+	color: #333333;
+	border-radius: 15px;
+	background: rgba(0, 0, 0, .06);
+	max-width: 100%;
+	box-sizing: border-box
+} 
 .one-tag-list .post-preview {
 	position: relative
 }
@@ -872,9 +886,6 @@ img::-moz-selection {
 	line-height: 12px
 }
 @media only screen and (min-width:768px) {
-	.one-tag-list .post-preview {
-		margin-left: 20px
-	}
 	.one-tag-list .post-preview>a>.post-title {
 		font-size: 18px;
 		line-height: 1.3
