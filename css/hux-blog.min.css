@@ -854,15 +854,13 @@ img::-moz-selection {
 	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
 	line-height: 1.7
 }
-.one-tag-list .fa-tag2 {
+.one-tag-list .tagtitle {
 	text-align: center;
 	height: 20px;
-	padding: 5px 15px;
-	font-size: 15px;
+	font-size: 18px;
+	font-weight: 600;
 	line-height: 24px;
-	color: #333333;
-	border-radius: 15px;
-	background: rgba(0, 0, 0, .06);
+	color: #BBBBBB;
 	max-width: 100%;
 	box-sizing: border-box
 } 

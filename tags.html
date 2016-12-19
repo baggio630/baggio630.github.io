@@ -32,8 +32,8 @@ header-img: "img/tag-bg.jpg"
             <!-- 标签列表 -->
 			{% for tag in site.tags %}
 			<div class="one-tag-list">
-			  	<span class="fa-tag2" id="{{ tag[0] }}">
-                    <span class="tag-text">{{ tag[0] }}</span>
+			  	<span class="tagtitle" id="{{ tag[0] }}">
+                    <span class="tag-text"># {{ tag[0] }}</span>
                 </span>
 				{% for post in tag[1] %}
 				  <!-- <li class="listing-item">
