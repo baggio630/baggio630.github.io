@@ -30,13 +30,13 @@
 	color: #bfbfbf !important
 }
 .sidebar-container a:hover, .sidebar-container a:active {
-	color: #0085a1 !important
+	color: #00aafc !important
 }
 .sidebar-container .tags a {
 	border-color: #bfbfbf
 }
 .sidebar-container .tags a:hover, .sidebar-container .tags a:active {
-	border-color: #0085a1
+	border-color: #00aafc
 }
 .sidebar-container .short-about img {
 	width: 80%;
@@ -119,7 +119,7 @@
 	background-color: #F5F5F5
 }
 .side-catalog .catalog-body .active a {
-	color: #0085a1 !important
+	color: #00aafc !important
 }
 @media (max-width:1200px) {
 	.side-catalog {
@@ -143,13 +143,14 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 1.1;
 }
 h4 {
-	font-size: 21px
+	font-size: 21px;
+	line-height:1.4
 }
 a {
 	color: #404040
 }
 a:hover, a:focus {
-	color: #0085a1
+	color: #00aafc
 }
 a img:hover, a img:focus {
 	cursor: zoom-in
@@ -211,10 +212,10 @@ pre code {
 	margin-bottom: 15px
 }
 .post-container a {
-	color: #0085a1
+	color: #00aafc
 }
 .post-container a:hover, .post-container a:focus {
-	color: #0085a1
+	color: #00aafc
 }
 .post-container h1, .post-container h2, .post-container h3, .post-container h4, .post-container h5, .post-container h6 {
 	margin: 30px 0 10px
@@ -437,13 +438,13 @@ pre code {
 		color: #404040
 	}
 	.navbar-custom.is-fixed .navbar-brand:hover, .navbar-custom.is-fixed .navbar-brand:focus {
-		color: #0085a1
+		color: #00aafc
 	}
 	.navbar-custom.is-fixed .nav li a {
 		color: #404040
 	}
 	.navbar-custom.is-fixed .nav li a:hover, .navbar-custom.is-fixed .nav li a:focus {
-		color: #0085a1
+		color: #00aafc
 	}
 	.navbar-custom.is-visible {
 		-webkit-transform: translate3d(0, 100%, 0);
@@ -645,7 +646,7 @@ footer .copyright a {
 	color: #337ab7
 }
 footer .copyright a:hover, footer .copyright a:focus {
-	color: #0085a1
+	color: #00aafc
 }
 .floating-label-form-group {
 	font-size: 14px;
@@ -691,7 +692,7 @@ footer .copyright a:hover, footer .copyright a:focus {
 	opacity: 1
 }
 .floating-label-form-group-with-focus label {
-	color: #0085a1
+	color: #00aafc
 }
 form .row:first-child .floating-label-form-group {
 	border-top: 1px solid #eee
@@ -711,8 +712,8 @@ form .row:first-child .floating-label-form-group {
 	padding: 25px 35px
 }
 .btn-default:hover, .btn-default:focus {
-	background-color: #0085a1;
-	border: 1px solid #0085a1;
+	background-color: #00aafc;
+	border: 1px solid #00aafc;
 	color: #fff
 }
 .pager {
@@ -741,8 +742,8 @@ form .row:first-child .floating-label-form-group {
 }
 .pager li>a:hover, .pager li>a:focus {
 	color: #fff;
-	background-color: #0085a1;
-	border: 1px solid #0085a1
+	background-color: #00aafc;
+	border: 1px solid #00aafc
 }
 .pager li>a:hover>span, .pager li>a:focus>span {
 	color: #fff
@@ -755,12 +756,12 @@ form .row:first-child .floating-label-form-group {
 ::-moz-selection {
 	color: #fff;
 	text-shadow: none;
-	background: #0085a1
+	background: #00aafc
 }
 ::selection {
 	color: #fff;
 	text-shadow: none;
-	background: #0085a1
+	background: #00aafc
 }
 img::selection {
 	color: #fff;
@@ -838,7 +839,7 @@ img::-moz-selection {
 	margin-top: 0
 }
 .listing-seperator {
-	color: #0085a1;
+	color: #00aafc;
 	font-size: 21px !important
 }
 .listing-seperator::before {
