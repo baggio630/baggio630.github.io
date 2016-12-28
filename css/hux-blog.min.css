@@ -9,7 +9,17 @@
 	}
 }
 .indextop{
-	padding-top: 90px
+	padding-top: 65px
+}
+@media (min-width:1200px) {
+	.indextop {
+		padding-top: 90px
+	}
+}
+@media (min-width:768px) {
+	.indextop {
+		padding-top: 90px
+	}
 }
 .post-container{
 	text-align: justify;
