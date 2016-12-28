@@ -218,10 +218,10 @@ pre code {
 	color: #00aafc
 }
 .post-container h1, .post-container h2, .post-container h3 {
-	margin: 0 0 30px 0;
+	margin: 50px 0 30px 0;
 }
 .post-container h3 {
-	margin: 0 0 30px 0;
+	margin: 50px 0 30px 0;
 	padding-left: 6px;
 	border-left: 4px solid #00aafc
 }
@@ -472,11 +472,11 @@ pre code {
 	-o-background-size: cover;
 	margin-bottom: 0
 }
-@media only screen and (min-width:768px) {
-	.intro-header {
-		margin-bottom: 20px
-	}
+
+.intro-header {
+	margin-bottom: 20px
 }
+
 .intro-header, .intro-header .post-heading, .intro-header .page-heading {
  	padding: 50px 0 0px;
 	color: #333333
