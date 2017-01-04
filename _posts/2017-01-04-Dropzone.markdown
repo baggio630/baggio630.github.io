@@ -21,10 +21,12 @@ tag:
 如果有一个工具能解决这些需求岂不完美，直到我尝试使用了 [Dropzone](https://aptonic.com) 。  
 
 ### 完美实现 iPic 的插图功能
-Dropzone 厉害的一点是：它支持用户自行编写 Action 。恰巧国内有位开发者编写了一个拖拽图片后上传到七牛云图床的插件： [使用Dropzone和七牛优化博客图床 - 闫肃的博客](http://yansu.org/2015/01/10/use-dropzone-and-qiniu-to-store-blog-images.html) ，但这个插件将图片上传至图床后，粘贴下来的只有图片的链接，并未带上 Markdown 的插图语法，还是没有 iPic 来的方便，没办法只好自己来，起初只是做了简单的改动：
+Dropzone 厉害的一点是：它支持用户自行编写 Action 。恰巧国内有位开发者编写了一个拖拽图片后上传到七牛云图床的插件： [使用Dropzone和七牛优化博客图床 - 闫肃的博客](http://yansu.org/2015/01/10/use-dropzone-and-qiniu-to-store-blog-images.html) ，但这个插件将图片上传至图床后，粘贴下来的只有图片的链接，并未带上 Markdown 的插图语法，还是没有 iPic 来的方便，没办法只好自己来，起初只是做了简单的改动：  
+
 ``` python
 base_url = '![](http://%s/%s)' % (bucket_domain, file_name)
-```
+```  
+
 但发现粘贴出来的是类似`!%5B%5D(http://img.jinzhuo.me/xxx)`这样的内容，`[]`这两个符号被转码了... ... Debug 后看到发现生成的内容没有问题：
 ![](http://img.jinzhuo.me/屏幕快照 2017-01-04 下午5.15.49.png)
 
