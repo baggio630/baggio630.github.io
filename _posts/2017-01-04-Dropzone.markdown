@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "用 Dropzone 完美实现 iPic 的插图功能"
+title:      "我的 Dropzone 调教方案"
 date:       2017-01-04
 author:     "Zhuo"
 header-img: "img/PostBack.png"
@@ -11,7 +11,7 @@ tag:
 [iPic](https://itunes.apple.com/cn/app/ipic-tu-chuang-shen-qi/id1101244278?mt=12&uo=4&at=10lJSw) 的开发者完美的解决了我在用 Markdown 码字儿时，插入图片的需求，每年 ¥25 的定价也算合适，但对于我这种不折腾会死的人来说，还是有些不够。  
 ![iPic 的插图步骤](http://img.jinzhuo.me/336000.gif)
 
-### 折腾前我面临的问题／我折腾的动力
+### 折腾的动力
 我在工作中对图片的操作需求有 3 个场景会极度依赖外部工具：  
 
 * 码字儿时，用 iPic 插入图片
@@ -21,7 +21,7 @@ tag:
 如果有一个工具能解决这些需求岂不完美，直到我尝试使用了 [Dropzone](https://aptonic.com) 。  
 
 ### 完美实现 iPic 的插图功能
-Dropzone 牛逼的一点是，他支持用户自行编写 Action ，恰巧国内有位开发者编写了一个拖拽图片后上传到七牛云图床的插件： [使用Dropzone和七牛优化博客图床 - 闫肃的博客](http://yansu.org/2015/01/10/use-dropzone-and-qiniu-to-store-blog-images.html) ，但这个插件将图片上传至图床后，粘贴下来的只有图片的链接，并未带上 Markdown 的插图语法，还是没有 iPic 来的方便，没办法只好自己来，起初只是做了简单的改动：
+Dropzone 厉害的一点是：它支持用户自行编写 Action 。恰巧国内有位开发者编写了一个拖拽图片后上传到七牛云图床的插件： [使用Dropzone和七牛优化博客图床 - 闫肃的博客](http://yansu.org/2015/01/10/use-dropzone-and-qiniu-to-store-blog-images.html) ，但这个插件将图片上传至图床后，粘贴下来的只有图片的链接，并未带上 Markdown 的插图语法，还是没有 iPic 来的方便，没办法只好自己来，起初只是做了简单的改动：
 ``` python
 base_url = '![](http://%s/%s)' % (bucket_domain, file_name)
 ```
@@ -36,7 +36,7 @@ You can use this in place of $dz.url. It behaves exactly the same except that it
 The following would result in the raw string 'This is a test string that will not be URL encoded' being placed on the pasteboard:  
 `$dz.text("This is a test string that will not be URL encoded")`
 
-将代码中的 `dz.url` 改为 `dz.url` 完美解决。
+将原代码中的 `dz.url` 改为 `dz.text` 完美解决。
 
 ### 用 Tinypng 压缩图片
 国内也有开发者写好了插件： [一个压缩图片的DropZone插件——Tinify | CoderGhui](https://ghui.me/post/2016/08/tinify/)但安装插件后，使用过程中遇到了问题，`brew install python3` 安装 python3 后运行插件报错的，手动下载安装 requests 模块后问题解决。
