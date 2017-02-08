@@ -24,7 +24,7 @@ ScreenSort 是一款帮助产品及设计人员更好的收集、整理、分享
 ![春季出游 Appstore 截图](http://img.jinzhuo.me/IMG_5502.JPG)
 
 #### Mark 一下（2012年）  
-![Marklogo.png](http://img.jinzhuo.me/Marklogo.png)
+![Marklogo2.png](http://img.jinzhuo.me/Marklogo2.png)
 ![Mark.png](http://img.jinzhuo.me/Mark.png)
 加入新公司后，与新伙伴的练手项目，是一款帮助游客在出行前更好的收集整理出行计划的 Chrome 插件，项目缘起我在出行前制定旅行计划时的诸多痛点，负责该项目的产品及设计工作，目前能还能正常使用但已暂停维护。  [项目介绍](http://www.nilai.com)  /  [官网](http://www.markyixia.com)
 
