@@ -6,7 +6,6 @@ author:     "Zhuo"
 header-img: "img/PostBack.png"
 ---
 
-
 Hey，我是**金倬**，毕业于**北京理工大学**工业设计专业。**你来出境游联合创始人**，**前百度用户体验部门资深设计师**。
 
 演讲、社交恐惧症，互联网信徒、Gfan、果粉、手机&移动互联网痴迷体验者。独立判断，敏锐思考，热爱情节，充满好奇，乐于设计优化，更痴迷于创造。
@@ -23,7 +22,7 @@ ScreenSort 是一款帮助产品经理及设计师更好的收集、整理、分
 
 #### 云游系列景点导游 App（2012年 - 2014年）  
 2012 年起，与团队一起开发了一系列景点导游 App，负责该项目的产品及设计工作，该系列的 3 个 App 于 2013 年初，同时获得 **Appstore 春季出游专题的官方推荐**。  
-[iOS 版本下载](https://itunes.apple.com/cn/app/gu-gong-zui-bang-gu-gong-yu/id757516130?mt=8) / [春季出游 Appstore 截图](http://img.jinzhuo.me/IMG_5502.JPG)
+[iOS 版本下载](https://itunes.apple.com/cn/app/gu-gong-zui-bang-gu-gong-yu/id757516130?mt=8) / [Appstore 春季出游专题截图](http://img.jinzhuo.me/IMG_5502.JPG)
 
 #### Mark 一下（2012年）  
 加入新公司后，与新伙伴的练手项目，是一款帮助游客在出行前更好的收集整理出行计划的 Chrome 插件，项目缘起我在出行前制定旅行计划时的诸多痛点，负责该项目的产品及设计工作，目前能还能正常使用但已暂停维护。  
