@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "我的 Dropzone 调教方案"
+title:      "Dropzone 调教方案"
 date:       2017-01-04
 author:     "Zhuo"
 header-img: "img/PostBack.png"
