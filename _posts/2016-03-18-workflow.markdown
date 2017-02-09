@@ -5,7 +5,7 @@ date:       2016-03-18
 author:     "Zhuo"
 header-img: "img/PostBack.png"
 tag:
-- 产品
+- 折腾
 ---
 
 最近发现了一款 iOS 上的一款工作流神器：Workflow，实在是太好玩了，倒腾了一晚上，感觉像是买了一盒新 Lego。参考 @JailbreakHum 的文章编了俩流程，成就感爆棚。  

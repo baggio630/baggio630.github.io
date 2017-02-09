@@ -7,7 +7,6 @@ header-img: "img/PostBack.png"
 catalog: true
 tag:
 - 产品
-- 设计
 ---
 
 ![blog_screensort1.png](http://img.jinzhuo.me/blog_screensort1.png)

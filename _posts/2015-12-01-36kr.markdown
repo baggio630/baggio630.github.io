@@ -5,7 +5,7 @@ date:       2015-12-01
 author:     "Zhuo"
 header-img: "img/PostBack.png"
 tag:
-- 产品
+- 你来出境游
 ---
 
 大家好，我是[**「你来出境游」**](http://www.nilai.com/) 联合创始人金倬，非常高兴有机会能和大家一起交流创业的过程。  

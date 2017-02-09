@@ -5,7 +5,7 @@ date:       2017-01-04
 author:     "Zhuo"
 header-img: "img/PostBack.png"
 tag:
-- 产品
+- 折腾
 ---
 
 [iPic](https://itunes.apple.com/cn/app/ipic-tu-chuang-shen-qi/id1101244278?mt=12&uo=4&at=10lJSw) 的开发者完美的解决了我在用 Markdown 码字儿时，插入图片的需求，每年 ¥25 的定价也算合适，但对于我这种不折腾会死的人来说，还是有些不够。  
