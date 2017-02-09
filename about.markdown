@@ -25,8 +25,8 @@ ScreenSort 是一款帮助产品经理及设计师更好的收集、整理、分
 [iOS 版本下载](https://itunes.apple.com/cn/app/gu-gong-zui-bang-gu-gong-yu/id757516130?mt=8) / [Appstore 春季出游专题截图](http://img.jinzhuo.me/IMG_5502.JPG)
 
 #### Mark 一下（2012年）  
-加入新公司后，与新伙伴的练手项目，是一款帮助游客在出行前更好的收集整理出行计划的 Chrome 插件，项目缘起我在出行前制定旅行计划时的诸多痛点，负责该项目的产品及设计工作，目前能还能正常使用但已暂停维护。  
-[官网](http://www.markyixia.com)
+加入新公司后，与新伙伴的练手项目，是一款帮助游客在出行前更好的收集整理出行计划的 Chrome 插件，项目缘起我在出行前制定旅行计划时的诸多痛点，负责该项目的产品及设计工作，目前已暂停维护，线上部分功能已不完整仅供体验。  
+[体验 Mark 一下](http://www.markyixia.com) （仅支持 Chrome 浏览器）
 
 #### 百度 WebApp 及 百度新首页项目 （2010年 - 2012年）  
 2010 年 9 月入职百度大搜索部门的用户体验部门，主要负责**百度框计算**相关产品设计工作，负责 WebApp 项目[整体交互及视觉框架](http://img.jinzhuo.me/share1-1.jpg)设计，搜索结果的[特型展现](http://img.jinzhuo.me/napp3.jpg) ，以及大部分的官方 WebApp 的设计，如[万年历](http://img.jinzhuo.me/rili.png)、[小说阅读](http://img.jinzhuo.me/结果页设置.jpg)。  
