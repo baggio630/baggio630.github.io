@@ -41,3 +41,4 @@ ScreenSort 是一款帮助产品经理及设计师更好的收集、整理、分
 ### 联系方式  
 * 手机：13466613203
 * 邮箱：jinzhuo@outlook.com
+* Telegram：@jinzhuo
