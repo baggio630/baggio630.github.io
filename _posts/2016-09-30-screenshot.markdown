@@ -46,9 +46,8 @@ tag:
 在 Widget 点击「Tag」后，会进入直接进入 App 内的上图页面，进行添加标签操作，可以为一张或多张截图添加多个标签。相较于单一分类的方式，标签对于后续的检索需求会更加灵活，比如我可以对一张截图添加类似：`淘宝`、`注册登陆`的标签。  
 
 #### 核心功能 2：分享
-![IMG_86E01627CA79-1.jpeg](http://img.jinzhuo.me/IMG_86E01627CA79-1.jpeg)
-在 Widget 点击「Share」后，会调用系统的分享控件，直接进入 App 内的上图页面，选择想要分享的 App 后，即可进行后续操作。
-![IMG_3291.PNG](http://img.jinzhuo.me/IMG_3291.PNG)
+![ScreensortShare.png](http://img.jinzhuo.me/ScreensortShare.png)
+在 Widget 点击「Share」后，会调用系统的分享控件，直接进入 App 内的上图页面，选择想要分享的 App 后，即可进行后续操作。  
 分享成功后，自动弹出系统的弹框，提示是否删除此截图，此流程可以在设置中进行开/关。  
 
 #### 其他重要页面
