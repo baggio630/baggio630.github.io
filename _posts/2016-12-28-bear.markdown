@@ -39,7 +39,6 @@ tag:
 **HashTag** 是直接促进我购买服务的功能，在 Bear 中，我可以在文章的任意位置用类似 `#Tag` 的语法，为文章打一个标签，Bear 更是发明了 **Sub-Tag**，我可以用类似 `#Tag/Subtag` 的语法为一个标签添加子标签，这种简洁而又符合 Markdown 书写习惯的添加标签方式简直太棒了！！  
 
 同时我也可以为一个文章添加多个**Sub-Tag**，添加完后，左侧的分类中便会即时出现新的 Tag 分类，这种所见即所得的方式也很酷！！  **HashTag**相当于 Folder 而 **Sub-Tag** 相当于 Sub Folder，不同的是，相较于 Evernote 中笔记本 + 标签的组织管理方式，这种方式要更加灵活易用，且能完美替代。
-![](http://oi290ogaj.bkt.clouddn.com/Bear.png)
 
 #### 刚刚好的 Browser extensions
 Bear 为主流浏览器提供了 Browser extensions，相较于 Evernote Web Clipper ，虽说功能不是那么全面，最让我动心的是：在保证基础易用的同时，完全不会保存网页中与正文无关的内容与格式，并且不管是纯文字还是图文混排的文章，保存下来后，排版都极其精致。简洁易用，完美替代 +1 ！。
