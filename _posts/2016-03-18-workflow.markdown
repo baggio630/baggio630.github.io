@@ -11,13 +11,13 @@ tag:
 最近发现了一款 iOS 上的一款工作流神器：Workflow，实在是太好玩了，倒腾了一晚上，感觉像是买了一盒新 Lego。参考 @JailbreakHum 的文章编了俩流程，成就感爆棚。  
 
 ### 通过 Widget 查询电影评分
-![Image-2.gif](http://oi290ogaj.bkt.clouddn.com/Image-2.gif)
+![Image-2.gif](http://img.jinzhuoimg.com/Image-2.gif)
 动图略大等待加载 ...  
 
 我经常在微博，或者其他地方会看到感兴趣的电影，通常我都会打开豆瓣查一查评价，如果好的话就直接进入「想看」列表。但整个流程其实是很长的，然后编了这么一个 ，通过 Widget 查询电影评分的 Workflow，直接通过 Widget 搜索电影，返回结果后点击可以直接跳转至 豆瓣 App 内，绝对影迷必备。  
 
 ### 分享后删除
-![Image-3.gif](http://oi290ogaj.bkt.clouddn.com/Image-3.gif)
+![Image-3.gif](http://img.jinzhuoimg.com/Image-3.gif)
 动图略大等待加载 ...    
 
 平时工作中经常会给团队成员分享截图，但很多截图分享出去后就没用了，所以我的相册中经常会有很多没用的截图，而且整个流程也有点长。通过这个「分享后删除」这个 Workflow，分享流程变成了：截图 - 下拉 widget - 分享 - 选择分享的渠道 - 分享成功 删除截图。
