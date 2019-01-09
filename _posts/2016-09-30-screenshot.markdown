@@ -9,7 +9,7 @@ tag:
 - 产品
 ---
 
-![blog_screensort1.png](http://oi290ogaj.bkt.clouddn.com/blog_screensort1.png)
+![blog_screensort1.png](http://img.jinzhuoimg.com/blog_screensort1.png)
 前段时间整理手机里的截图时，跟骚贵、姗姗吐槽在 iOS 设备上整理截图的痛苦：手机里有几千张的截图，大概有 1/3 是没有用的需要手动删除，而另外 2/3 是在各个时期截下来的有趣的产品删了可惜，但管理起来又实在麻烦，不去整理吧当你需要调研解决方案时有很难去检索，很是苦恼。结果发现他俩也有同样的苦恼，回家路上琢磨了会这事儿，感觉解决这问题应该挺好玩儿的，就用几个晚上的时间出了产品 Demo ，取名为：**ScreenSort**。
 
 ### 现在的问题  
@@ -38,23 +38,23 @@ tag:
 * 在有分享行为时，能够在流程中进行删除操作，尽可能减少**一次性截图**的产生  
 
 #### ScreenSort 的核心入口：Widget  
-![SceensortWidget.png](http://oi290ogaj.bkt.clouddn.com/SceensortWidget.png)
+![SceensortWidget.png](http://img.jinzhuoimg.com/SceensortWidget.png)
 在任何 App 内截图后，都可以从顶部下拉出 Widget 页，根据官方规范，ScreenSort 的 Widget 有**默认**和**展开**两种状态，如果是单张截图，直接点击「Share」或「Tag」即可进行后续操作，如果想对多张截图进行操作，展开 Widget 后，可以对图片进行多选操作。
 
 #### 核心功能 1：添加标签
-![z-4-1添加标签.png](http://oi290ogaj.bkt.clouddn.com/z-4-1添加标签.png)
+![z-4-1添加标签.png](http://img.jinzhuoimg.com/z-4-1添加标签.png)
 在 Widget 点击「Tag」后，会进入直接进入 App 内的上图页面，进行添加标签操作，可以为一张或多张截图添加多个标签。相较于单一分类的方式，标签对于后续的检索需求会更加灵活，比如我可以对一张截图添加类似：`淘宝`、`注册登陆`的标签。  
 
 #### 核心功能 2：分享
-![ScreensortShare.png](http://oi290ogaj.bkt.clouddn.com/ScreensortShare.png)
+![ScreensortShare.png](http://img.jinzhuoimg.com/ScreensortShare.png)
 在 Widget 点击「Share」后，会调用系统的分享控件，直接进入 App 内的上图页面，选择想要分享的 App 后，即可进行后续操作。  
 分享成功后，自动弹出系统的弹框，提示是否删除此截图，此流程可以在设置中进行开/关。  
 
 #### 其他重要页面
-![z-1首页.png](http://oi290ogaj.bkt.clouddn.com/z-1首页.png)
-![z-3长按多选状态-多选.png](http://oi290ogaj.bkt.clouddn.com/z-3长按多选状态-多选.png)
+![z-1首页.png](http://img.jinzhuoimg.com/z-1首页.png)
+![z-3长按多选状态-多选.png](http://img.jinzhuoimg.com/z-3长按多选状态-多选.png)
 首页就是一个简单的截图列表，只加载 iOS 照片中「屏幕快照」相册分类下的图片，可以通过点击单张或长按选择多张的方式，管理截图。点击左下角的 icon 进入下图标签检索页
-![z-2筛选.png](http://oi290ogaj.bkt.clouddn.com/z-2筛选.png)  
+![z-2筛选.png](http://img.jinzhuoimg.com/z-2筛选.png)  
 
 ### 后续
 ScreenSort 如果能够顺利上线，仅目前的功能，在我看来已经能满足产品经理和设计师在工作中与截图相关的场景需求了，并且可以极大的提升操作效率。后续的功能还在考虑中，但一定是围绕在如何提高管理、分享、检索截图的效率为目标的的优化改进。  
