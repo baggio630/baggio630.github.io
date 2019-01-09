@@ -9,7 +9,7 @@ tag:
 ---
 
 [iPic](https://itunes.apple.com/cn/app/ipic-tu-chuang-shen-qi/id1101244278?mt=12&uo=4&at=10lJSw) 的开发者完美的解决了我在用 Markdown 码字儿时，插入图片的需求，每年 ¥25 的定价也算合适，但对于我这种不折腾会死的人来说，还是有些不够。  
-![iPic 的插图步骤](http://oi290ogaj.bkt.clouddn.com/336000.gif)
+![iPic 的插图步骤](http://img.jinzhuoimg.com/336000.gif)
 
 ### 折腾的动力
 我在工作中对图片的操作需求有 3 个场景会极度依赖外部工具：  
@@ -28,7 +28,7 @@ base_url = '![](http://%s/%s)' % (bucket_domain, file_name)
 ```  
 
 但发现粘贴出来的是类似`!%5B%5D(http://img.jinzhuo.me/xxx)`这样的内容，`[]`这两个符号被转码了... ... Debug 后看到发现生成的内容没有问题：
-![](http://oi290ogaj.bkt.clouddn.com/屏幕快照 2017-01-04 下午5.15.49.png)
+![](http://img.jinzhuoimg.com/屏幕快照 2017-01-04 下午5.15.49.png)
 
 问题应该是将数据传到剪贴板时发生的。阅读 Dropzone Action 的文档时发现了这么一段：  
 
